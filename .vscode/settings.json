@@ -1,0 +1,11 @@
+{
+    "pasteImage.path": "${projectRoot}/images",
+    "pasteImage.insertPattern": "![](/images/${imageFileName})",
+    "pasteImage.namePrefix": "zenn_",
+    "markdownPaste.path": "${workspaceRoot}/images",
+    "markdownPaste.namePrefix": "zenn_",
+    "markdownPaste.silence": true,
+    "markdown.copyFiles.destination": {
+        "**/*": "${documentWorkspaceFolder}/images/"
+    }
+}

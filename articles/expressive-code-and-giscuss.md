@@ -10,6 +10,9 @@ published: true
 最近、Astroを使って個人ポートフォリオ兼技術ブログを作成したので、**Expressive Code**と**Giscuss**の紹介記事を書いてみました。
 
 ## Expressive Codeでコードブロックを魅せる
+
+![Expressive Code](../images/expressive-code.png)
+
 技術ブログの主役はコードです。Astro標準のシンタックスハイライトも悪くありませんが、**ファイル名の表示**や**行ハイライト**などを手軽に実装したかったため、Expressive Codeを採用しました。
 
 ### 導入手順
@@ -33,6 +36,12 @@ export default defineConfig({
 ```
 
 ## Giscussでコメント機能を魅せる
+
+![giscuss](../images/giscuss.png)
+
+Astroのようにデータベースを持たない**静的サイト**では、コメント機能の実装は少しハードルが高いです。
+
+そこで便利なのが **Giscuss** です。 これは GitHub Discussions の仕組みを利用して、コメント欄を「埋め込む」ことができるツールです。 データベースの管理が一切不要で、しかも**完全無料**です。
 
 ### 導入手順
 Giscussを利用するには、以下の3条件を満たす必要があります。
