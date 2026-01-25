@@ -3,7 +3,7 @@ title: "Expressive CodeとGiscussで魅せる記事をつくる"
 emoji: "📚"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["astro", "github", "frontend"]
-published: false
+published: true
 ---
 
 ## はじめに
