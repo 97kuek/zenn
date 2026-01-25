@@ -1,0 +1,25 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "new": "zenn new:article",
+    "book": "zenn new:book",
+    "preview": "zenn preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/97kuek/zenn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/97kuek/zenn/issues"
+  },
+  "homepage": "https://github.com/97kuek/zenn#readme",
+  "devDependencies": {
+    "zenn-cli": "^0.4.1"
+  }
+}
