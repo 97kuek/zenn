@@ -11,7 +11,7 @@ published: true
 
 ## Expressive Codeでコードブロックを魅せる
 
-![Expressive Code](../images/expressive-code.png)
+![Expressive Code](/images/expressive-code.png)
 
 技術ブログの主役はコードです。Astro標準のシンタックスハイライトも悪くありませんが、**ファイル名の表示**や**行ハイライト**などを手軽に実装したかったため、Expressive Codeを採用しました。
 
@@ -37,7 +37,7 @@ export default defineConfig({
 
 ## Giscussでコメント機能を魅せる
 
-![giscuss](../images/giscuss.png)
+![giscuss](/images/giscuss.png)
 
 Astroのようにデータベースを持たない**静的サイト**では、コメント機能の実装は少しハードルが高いです。
 
