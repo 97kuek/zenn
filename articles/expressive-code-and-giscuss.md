@@ -11,9 +11,11 @@ published: true
 
 ## Expressive Codeでコードブロックを魅せる
 
-![Expressive Code](/images/expressive-code.png)
-
 技術ブログの主役はコードです。Astro標準のシンタックスハイライトも悪くありませんが、**ファイル名の表示**や**行ハイライト**などを手軽に実装したかったため、Expressive Codeを採用しました。
+
+Expressive Codeを導入すると、こんな感じの見た目になります。
+
+![Expressive Code](/images/expressive-code.png)
 
 ### 導入手順
 まずはプロジェクトにパッケージを追加します。Astroには便利な`astro add`コマンドが用意されているので、これを使うのが一番早いです。ターミナルを開き、以下のコマンドを実行してください。
@@ -22,8 +24,7 @@ published: true
 npx astro add astro-expressive-code
 ```
 
-自動インストールが完了したら、念のため`astro.config.mjs`を確認してみましょう。このファイルは、Astroプロジェクトの設定ファイルで、**拡張機能の管理**や**サイト全体の基本情報**などを記述する場所です。
-
+これだけでおしまいです。インストールが完了したら、念のため`astro.config.mjs`を確認してみましょう。このファイルは、Astroプロジェクトの設定ファイルで、**拡張機能の管理**や**サイト全体の基本情報**などを記述する場所です。
 以下のように、`expressiveCode()`がインポートされ、`integrations`配列に追加されていればOKです。
 
 ```js
@@ -40,7 +41,6 @@ export default defineConfig({
 ![giscuss](/images/giscuss.png)
 
 Astroのようにデータベースを持たない**静的サイト**では、コメント機能の実装は少しハードルが高いです。
-
 そこで便利なのが **Giscuss** です。 これは GitHub Discussions の仕組みを利用して、コメント欄を「埋め込む」ことができるツールです。 データベースの管理が一切不要で、しかも**完全無料**です。
 
 ### 導入手順
@@ -111,3 +111,8 @@ import Giscuss from '../components/Giscuss.astro';
 ローカル環境でもGiscussは表示されますが、実際に投稿テストをする場合は、本番環境またはlocalhostの設定許可を確認してください。
 
 記事ページの下部にコメント欄が表示され、GitHubアカウントでログインして書き込み出来れば成功です。
+
+## まとめ
+
+今回は、Astroでブログを作成する際に役立つ**Expressive Code**と**Giscuss**の導入方法について紹介しました。
+どちらも簡単に導入でき、技術ブログを作るにはうってつけのツールなので、ぜひ使ってみてください。
