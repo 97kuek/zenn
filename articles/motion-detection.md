@@ -1,5 +1,5 @@
 ---
-title: "OpenCVで動体検知"
+title: "【理論編】古典的な動体検知システムをOpenCVで実装してみる"
 emoji: "🐈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["opencv", "python"]
